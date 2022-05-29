@@ -61,9 +61,16 @@ li{
     list-style-type: none;
 }
 
+.img_inicio{
+    width: 100%;
+    height: 600px;
+
+}
+
 
 
 /********************** Sección de cajas para ofertas ******************************/
+
 
 .seccion-ofertas{   
     background-color: #FFF1BD;
@@ -73,6 +80,7 @@ li{
     width: 100%;
     height: 150px;
 }
+
 
 /* Cajas para ofertas */
 .cajas-ofertas{
@@ -85,7 +93,7 @@ li{
     color: black;
     text-decoration:solid;
     width: 310px;
-    height: 400px;
+    height: 580px;
     padding: 15px 10px 15px 5px;
     border-top: solid 2px #362706;
     border-right: solid 2px #362706;
@@ -96,6 +104,11 @@ li{
     text-align: center;
     box-shadow: 5px 5px 25px 5px #aa7b14;
     font-size: 25px;
+}
+
+.cajas-ofertas{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 350px);
 }
 /* fotos ofertas - index */
 .foto-ofertas{
@@ -147,6 +160,7 @@ flex-wrap: wrap;
     color: #362706;
     font-size: 20px;
 }
+/********* Seccion de Combos ********/
 
 /* **********************Seccion de Productos ***********************/
 
@@ -155,7 +169,7 @@ flex-wrap: wrap;
     color: black;
     text-decoration:solid;
     width: 250px;
-    height: 250px;
+    height: 300px;
     padding: 15px 10px 15px 5px;
     border-top: solid 2px #362706;
     border-right: solid 2px #362706;
@@ -220,8 +234,8 @@ flex-wrap: wrap;
     }
 
     .img_inicio{
-    width: 100%;
-    height: auto;
+        width: 100%;
+        height: 500px;
 
     }
     .hijo_menu{
@@ -239,7 +253,7 @@ flex-wrap: wrap;
 }
 
 
-/******* Media query 768px **********/
+/**************** Media query 768px ****************/
 @media (max-width: 768px){
     .barra_nav{
     flex-direction:column;
@@ -279,8 +293,8 @@ flex-wrap: wrap;
     }
 
     .img_inicio{
-    width: 100%;
-    height: auto;
+        width: 100%;
+        height: 450px;
 
     }
     .hijo_menu{
@@ -301,7 +315,7 @@ flex-wrap: wrap;
     } 
     .img_inicio{
         width: 100%;
-        height: auto;
+        height: 350px;
     }
 
     .hijo_menu{
@@ -350,7 +364,7 @@ flex-wrap: wrap;
     }   
     .img_inicio{
         width: 100%;
-        height: auto;
+        height: 300px;
     }
 
     .hijo_menu{
@@ -396,4 +410,9 @@ flex-wrap: wrap;
         
     }
 }
+
+
+
+
+
 

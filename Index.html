@@ -4,11 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link
+    <link
     rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style-index.css">
+
     <title>Naturando</title>
   </head>
   <body>
@@ -26,8 +28,34 @@
       </nav>
     </header>
     <main class="seccion-ofertas" >
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Imges/imginicio.jpg" class="img_inicio d-block w-100" alt="Muestras mix frutos" width="100%">
+          </div>
+          <div class="carousel-item">
+            <img src="./Imges/imginicio2.jpg" class="img_inicio d-block w-100" alt="Muestras mix frutos" width="100%">
+          </div>
+          <div class="carousel-item">
+            <img src="./Imges/imginicio3.jpg" class="img_inicio d-block w-100" alt="Muestras jugos" width="100%">
+          </div>
+          <div class="carousel-item">
+            <img src="./Imges/imginicio4.jpg" class="img_inicio d-block w-100" alt="Muestras jugos" width="100%" height="720">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
         <div>
-          <img class="img_inicio" src="./Imges/imginicio.jpg" alt="Muestras mix frutos" width="100%" height="720">
+          <!-- <img class="img_inicio" src="./Imges/imginicio.jpg" alt="Muestras mix frutos" width="100%" height="720"> -->
           </div><br><br><br><br>
           <!-- Texto que indica que comienzan las ofertas del momento-->
           <div class="color_text">
@@ -54,7 +82,7 @@
                 <li>Chips de anana</li>
             </ul>    
             <p>$310,00 paq. 300 gr</p> <s>$420,58</s>
-        </div>
+          </div>
         <div class="ofertas grid-item">
           <!-- Ofertas destacada 2 -->
           <img class="foto-ofertas"  src="./Imges/Ofertas-inicio/mix-europeo.jpg" alt="mix" width="150" height="150">
@@ -82,17 +110,42 @@
           <p>$290,85 paq. 300 gr</p> <s>$337,50</s>
         </div>
         <div class="ofertas grid-item">
+          <!-- Ofertas destacada 1 -->
+          <img class="foto-ofertas" src="./Imges/Ofertas-inicio/mixtropical.jpg" alt="mix" width="150" height="150">
+          <h3>Mix Tropical</h3>
+          <ul>
+              <li class="Descripcion">Nueces peladas</li>
+              <li>Castañas de caju</li>
+              <li>Pasas de uvas negras/rubias</li>
+              <li>Chips de banana</li>
+              <li>Chips de anana</li>
+          </ul>    
+          <p>$310,00 paq. 300 gr</p> <s>$420,58</s>
+        </div>
+        <div class="ofertas grid-item">
+          <!-- Ofertas destacada 1 -->
+          <img class="foto-ofertas" src="./Imges/Ofertas-inicio/mixtropical.jpg" alt="mix" width="150" height="150">
+          <h3>Mix Tropical</h3>
+          <ul>
+              <li class="Descripcion">Nueces peladas</li>
+              <li>Castañas de caju</li>
+              <li>Pasas de uvas negras/rubias</li>
+              <li>Chips de banana</li>
+              <li>Chips de anana</li>
+          </ul>    
+          <p>$310,00 paq. 300 gr</p> <s>$420,58</s>
+        </div>
+        <div class="ofertas grid-item">
           <!-- Ofertas destacada 4 -->
           <img class="foto-ofertas" src="./Imges/Ofertas-inicio/Miel.jpg" alt="Miel" width="150" height="150"><br>
           <h3>Miel Cremosa Natural x 500 gr.</h3><br>
-          <p>$550,00</p><s>$710,70</s>
-      </div><br><br><br><br><br><br>
+          <p>$550,00</p><s>$710,70</s>     
+      </div><br><br>
     </main>
 
     <!----------------- Comienza el pie de pagina --------------------->
-
     <footer class="pie-footer">
-      <div class="color_text"> 
+      <div class="color_text">
         <h2>Seguinos en nuestras redes</h2>
         <br><br><br><br><br>
       </div>
@@ -131,5 +184,7 @@
     <script>
     new WOW().init();
     </script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
 </html>
