@@ -1,0 +1,4 @@
+Color Logo #B87E24
+Color de fondo Background-color #FFF1BD
+Color textos #B87E24
+Color fondo barra-nav #f7c478
