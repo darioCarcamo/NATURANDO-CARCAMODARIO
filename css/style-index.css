@@ -108,7 +108,7 @@ s{
     color: brown;
 }
 
-/* Hover a las cajas */
+/* Hover a las cajas - Uso de transformación */
 .grid-item:hover{
     filter: opacity(0.9);
     transform: scale(1.04);
@@ -396,3 +396,4 @@ flex-wrap: wrap;
         
     }
 }
+
