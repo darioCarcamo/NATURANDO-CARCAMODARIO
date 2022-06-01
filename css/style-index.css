@@ -160,9 +160,32 @@ flex-wrap: wrap;
     color: #362706;
     font-size: 20px;
 }
-/********* Seccion de Combos ********/
+/*********************** Seccion de Page Combos *********************/
+/* Inclusion de acordeon Bootstrap */
+.accordion{
+    background-color: #FFF1BD;
+}
+.accordion-item{
+    background-color: #FFF1BD
+}
+.accordion-heade{
+    background-color: #FFF1BD
+}
+.accordion-button{
+    background-color: #FFF1BD;
+}
 
-/* **********************Seccion de Productos ***********************/
+
+
+
+
+
+
+
+
+
+
+/* **********************Seccion de Page Productos ***********************/
 
 .cajas-productos{
     background: white;
@@ -184,7 +207,7 @@ flex-wrap: wrap;
 
 
 
-/* **************************Seccion de Contacto************************************************ */
+/* **************************Seccion Page de Contacto************************************************ */
 
 .seccion_contacto{
     font-size: 20px;
@@ -409,6 +432,7 @@ flex-wrap: wrap;
         margin: 10px 45px;
         
     }
+
 }
 
 

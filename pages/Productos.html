@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./../css/style-index.css">
+
         <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="./../css/style-index.css">
     <title>Naturando - Productos</title>
 </head>
 <body>
@@ -64,7 +65,56 @@
             <img class="foto-ofertas" src="./../Imges/Productos/jugosnaturales.jpg" alt="mix" width="180" height="180"><br><br>  
             <h3>Jugos Naturales</h3>
           </div>
-        </div><br>
+        </div><br><br><br><br>
+                  <!-- Preguntas frecuentes -->
+
+          <div class="accordion" id="accordionExample">
+            <h3 class="color_text">Preguntas Frecuentes</h3><br><br>
+            <div class="accordion-item">
+              <h3 class="accordion-header color_text" id="headingOne">
+                <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne ">
+                  <h5 class="color_text"> Se puede abonar mediantes transferencia bancaria?</h5>
+                </button>
+              </h3> 
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body color_text">
+                  <p class="color_text">
+                    Si, aceptamos transferencia bancarias.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="acordeon accordion-item ">
+              
+              <h3 class="accordion-header color_text" id="headingTwo">
+                <button class="accordion-button collapsed color_text" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <h5 class="color_text">Se pueden realizar compras minoristas?</h5>
+                </button>
+              </h3>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p class="color_text">
+                    Si, usted puede comprar las unidades que necesite, recuerde que el envio será gratis a partir de $4000,00.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header color_text" id="headingThree">
+                <button class="accordion-button collapsed color_text" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <h5 class="color_text"> Cada producto viene sellado?</h5>
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p class="color_text">
+                    Sí, cada envio es verificado que se envie de forma segura y prolija para que usted reciba un producto de excelente calidad.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
     </main>
     
     <footer class="pie-footer"> <br><br><br><br><br>
@@ -102,6 +152,8 @@
         <script>
         new WOW().init();
         </script>
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     
 </body>
 </html>
