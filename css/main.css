@@ -10,7 +10,8 @@
 .color_text {
   color: #B87E24;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: "Times";
+  font-size: 22px; }
 
 li {
   list-style-type: none; }
@@ -49,11 +50,13 @@ header, footer {
       text-decoration: none;
       display: inline-block;
       margin: 0 20px;
-      font-size: 20px; }
+      font-size: 22px;
+      font-weight: 500; }
       .barra_nav li a:hover {
         color: black; }
     .barra_nav li:hover {
-      background-color: #f7c478; }
+      background-color: #e8c99b;
+      background-image: linear-gradient(315deg, #e8c99b 0%, #e8bc85 74%); }
 
 /* Cajas para ofertas - fotos ofertas - index */
 .seccion-ofertas {
@@ -67,9 +70,10 @@ header, footer {
   .cajas-ofertas .ofertas {
     background: white;
     color: black;
+    font-family: "Dosis";
     text-decoration: solid;
     width: 310px;
-    height: 580px;
+    height: auto;
     padding: 15px 10px 15px 5px;
     border-top: solid 2px #362706;
     border-right: solid 2px #362706;
@@ -92,7 +96,10 @@ s {
 /* Hover a las cajas - Uso de transformación */
 .grid-item:hover {
   filter: opacity(0.9);
-  transform: scale(1.04); }
+  transform: scale(1.02); }
+
+footer {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
 
 .pie-footer {
   flex-wrap: wrap; }
@@ -107,7 +114,8 @@ s {
 
 .tex-footer {
   color: black;
-  font-size: 20px; }
+  font-size: 20px;
+  font-family: "Times"; }
 
 .link-footer {
   color: #362706;
@@ -125,12 +133,41 @@ s {
 .accordion-button {
   background-color: #FFF1BD; }
 
+.cajas-ofertas {
+  display: flex;
+  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 350px); }
+  .cajas-ofertas .ofertas {
+    background: white;
+    color: black;
+    font-family: "Dosis";
+    text-decoration: solid;
+    width: 310px;
+    height: auto;
+    padding: 15px 10px 15px 5px;
+    border-top: solid 2px #362706;
+    border-right: solid 2px #362706;
+    border-bottom: solid 2px #362706;
+    border-left: solid 2px #362706;
+    margin: 5px 10px 15px 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 25px 5px #aa7b14;
+    font-size: 25px; }
+    .cajas-ofertas .ofertas .foto-ofertas {
+      border-top: solid 1px #362706;
+      border-right: solid 1px #362706;
+      border-bottom: solid 1px #362706;
+      border-left: solid 1px #362706; }
+
 .cajas-productos {
   background: white;
   color: black;
+  font-family: "Dosis";
   text-decoration: solid;
-  width: 250px;
-  height: 300px;
+  width: 310px;
+  height: auto;
   padding: 15px 10px 15px 5px;
   border-top: solid 2px #362706;
   border-right: solid 2px #362706;
@@ -147,9 +184,10 @@ s {
   padding: 60px 60px;
   background: linear-gradient(rgba(118, 126, 148, 0.1), rgba(220, 230, 224, 0.25)), url(./../Imges/Contacto/fondo5.jpg) no-repeat center center fixed;
   background-size: cover;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
-  color: black; }
+  color: black;
+  font-family: "Times"; }
 
 .Ingreso_info {
   font-size: 20px; }
