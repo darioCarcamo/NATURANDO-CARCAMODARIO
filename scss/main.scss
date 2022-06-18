@@ -2,10 +2,10 @@
 $letra: "Times"; 
 $color:#B87E24;
 
-// General
-
-
-// IMPORTANTE DARIO => aca irian los import
+// Imports
+@import "footer";
+@import "accordion";
+@import "estilos_contacto";
 
 *{
     margin: 0;
@@ -127,47 +127,7 @@ s{
 	}
 }
 
-// Pie de pagina
-footer {
-@extend header;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.pie-footer {
-	flex-wrap: wrap;
-}
-.iconos-redes {
-	display: flex;
-	justify-content: space-around;
-}
-.pie-pagina {
-	display: flex;
-	justify-content: space-around;
-}
-.tex-footer {
-	color: black;
-	font-size: 20px;
-	font-family: $letra;
-}
-.link-footer {
-	color: #362706;
-	font-size: 20px;
-}
-
-// Seccion de Page - Combos / Uso de Bootstrap
-.accordion{
-    background-color: #FFF1BD;
-}
-.accordion-item{
-    background-color: #FFF1BD
-}
-.accordion-header{
-    background-color: #FFF1BD
-}
-.accordion-button{
-    background-color: #FFF1BD;
-}
-
-// Seccion de Page "Productos"
+// Seccion de Page "Productos"        ************
 
 .cajas-ofertas{
  @include cajas()
@@ -176,23 +136,6 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 	@include cajas_productos_mixing
 }
 
-// Seccion de Page contacto
-.seccion_contacto{
-    font-size: 20px;
-    padding: 60px 60px;
-	background: linear-gradient(rgba(118, 126, 148, 0.10), rgba(220, 230, 224, 0.25)), url(./../Imges/Contacto/fondo5.jpg) no-repeat center center fixed;
-	background-size: cover;
-	font-size: 22px;
-	font-weight: 500;
-	color: black;
-	font-family: $letra;
-	
-}
-
-// Placeholder donde el usuario debe completar
-.Ingreso_info{
-    font-size: 20px;   
-}
 
 // USO DE MEDIA QUERY
 
