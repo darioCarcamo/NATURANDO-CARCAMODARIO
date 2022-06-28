@@ -1,9 +1,13 @@
 footer {
     @extend header;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 50px 0px 25px 0px;
     }
     .pie-footer {
         flex-wrap: wrap;
+        .caja_footer{
+            padding: 40px 0px 40px 0px;
+        }
     }
     .iconos-redes {
         display: flex;
