@@ -36,10 +36,8 @@ header{
 }
 
 .logo{
-    width: 230px;
-    cursor: pointer;
+	width: 230px;
 }
-
 .barra_nav{
     width: 90%;
     margin: auto;
@@ -47,13 +45,14 @@ header{
     display: flex;
     align-items: center;
     justify-content:space-between; 
-    li{
+	li{
         display:inline-block;
         text-align: center;
-        margin: 30px;
+        margin: 20px;
         padding: 20px;
         background-color: white;
-        border-radius: 20%;
+        border-radius: 8%;
+		transition: .10s;
         a{
             text-decoration: none;
             display: inline-block;
@@ -61,14 +60,12 @@ header{
             font-size: 22px;
 			font-weight: 500;
                 &:hover{
-                    color: black;
+                    color: white;
                 }
             }
         &:hover{
 			background-color: #e8c99b;
-			background-image: linear-gradient(315deg, #e8c99b 0%, #e8bc85 74%);
-			
-
+			background: linear-gradient(315deg, #e8c99b 0%, #e8bc85 74%);
         }
     }   
 }
@@ -147,8 +144,19 @@ s{
 
 
 @media (max-width: 1024px) {
+	.logo_principal{
+		display: flex;
+		justify-content: center;
+	}
 	.barra_nav {
-		flex-direction: column;
+		width: 100%;
+		display: inline-block;
+	}
+	.barra_nav{
+		li{
+			border-radius: 8%;
+			padding: 15px;
+		}
 	}
 	.cajas-ofertas {
 		display: grid;
@@ -179,6 +187,10 @@ s{
 	.hijo_menu {
 		display: flex;
 		flex-direction: column;
+	}
+	.pie-pagina{
+		display: flex;
+		justify-content: space-between;
 	}
 }
 @media (max-width: 1200px){
