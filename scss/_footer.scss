@@ -1,28 +1,29 @@
 footer {
-    @extend header;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 50px 0px 25px 0px;
-    }
-    .pie-footer {
-        flex-wrap: wrap;
-        .caja_footer{
-            padding: 40px 0px 40px 0px;
-        }
-    }
-    .iconos-redes {
-        display: flex;
-        justify-content: space-around;
-    }
-    .pie-pagina {
-        display: flex;
-        justify-content: space-around;
-    }
-    .tex-footer {
-        color: black;
-        font-size: 20px;
-        font-family: $letra;
-    }
-    .link-footer {
-        color: #362706;
-        font-size: 20px;
-    }
+  @extend header;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 50px 0px 25px 0px;
+}
+.pie-footer {
+  flex-wrap: wrap;
+  .caja_footer {
+    padding: 40px 0px 40px 0px;
+  }
+}
+.iconos-redes {
+  display: flex;
+  justify-content: space-around;
+}
+.pie-pagina {
+  display: flex;
+  justify-content: space-around;
+}
+.tex-footer {
+  color: black;
+  font-size: 20px;
+  font-family: $letra;
+}
+.link-footer {
+  color: #362706;
+  font-size: 20px;
+}

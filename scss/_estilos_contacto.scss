@@ -1,21 +1,23 @@
 // Seccion de Page contacto
-.seccion_contacto{
-    font-size: 20px;
-    padding: 60px 60px;
-	background: linear-gradient(rgba(118, 126, 148, 0.10), rgba(220, 230, 224, 0.25)), url(./../Imges/Contacto/fondo5.jpg) no-repeat center center fixed;
-	background-size: cover;
-	font-size: 22px;
-	font-weight: 500;
-	color: black;
-	font-family: $letra;
-	.page_contac{
-		padding: 10px 0px 20px 0px;
-	}	
+.seccion_contacto {
+  font-size: 20px;
+  padding: 60px 60px;
+  background: linear-gradient(
+      rgba(118, 126, 148, 0.1),
+      rgba(220, 230, 224, 0.25)
+    ),
+    url(./../Imges/Contacto/fondo5.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-size: 22px;
+  font-weight: 500;
+  color: black;
+  font-family: $letra;
+  .page_contac {
+    padding: 10px 0px 20px 0px;
+  }
 }
 
-
-
 // Placeholder donde el usuario debe completar
-.Ingreso_info{
-    font-size: 20px;   
+.Ingreso_info {
+  font-size: 20px;
 }
